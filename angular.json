@@ -63,7 +63,8 @@
               "projects/ums-app/src/assets"
             ],
             "styles": [
-              "projects/ums-app/src/styles.scss"
+              "projects/ums-app/src/styles.scss",
+              "./node_modules/bulma/css/bulma.css"
             ],
             "scripts": []
           },

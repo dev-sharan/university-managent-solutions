@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Card } from 'ums-lib';
+import { assassins } from './assassins';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ums-app';
+  cards: Card[] = assassins;
+  onCardChange(cards: any) {
+    console.log(cards);
+  }
 }
